@@ -4,9 +4,10 @@ using Zenject;
 
 public class BuildingUI : MonoBehaviour, IBuildingUI
 {
-    public GameObject uiPanel;
-    public Button[] buildingButtons;
     public bool IsMenuActive {get; private set;} = false;
+
+    [SerializeField] private GameObject uiPanel;
+    [SerializeField] private Button[] buildingButtons;
 
     [Inject] private IBuildingSystem _buildingSystem;
     private string _selectedBuildingName;

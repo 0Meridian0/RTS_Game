@@ -5,21 +5,70 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638723626915076554
-    m_Hash: 4288641463
+      ticks: 638725537562780071
+    m_Hash: 1294145284
   m_LockFileStatus:
     m_FilePath: D:/Work/RTS_Game/RTS_Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638723626915136560
-    m_Hash: 599958065
+      ticks: 638725537562950100
+    m_Hash: 1774730059
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.cysharp.unitask@https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.5.10
+      testable: 0
+      isDirectDependency: 1
+      version: 2.5.10
+      source: 5
+      resolvedPath: D:\Work\RTS_Game\RTS_Game\Library\PackageCache\com.cysharp.unitask@7c0f199fe0
+      assetPath: Packages/com.cysharp.unitask
+      name: com.cysharp.unitask
+      displayName: UniTask
+      author:
+        name: Cysharp, Inc.
+        email: 
+        url: https://cysharp.co.jp/en/
+      category: Task
+      type: 
+      description: Provides an efficient async/await integration to Unity.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - async/await
+      - async
+      - Task
+      - UniTask
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
     - packageId: com.unity.addressables@1.18.19
       testable: 0
       isDirectDependency: 1
